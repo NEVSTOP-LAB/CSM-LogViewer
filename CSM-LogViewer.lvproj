@@ -30,15 +30,14 @@
 		<Item Name="CSM-LogViewer.vi" Type="VI" URL="../CSM-LogViewer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="API String Arguments Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/API-String-Arugments-Support/API String Arguments Support.lvlib"/>
 				<Item Name="Communicable State Machine.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/Communicable State Machine.lvlib"/>
 				<Item Name="CSM - MassData Update Status Indicator.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/MassData-Parameter/Utility/CSM - MassData Update Status Indicator.vi"/>
 				<Item Name="CSM Loop Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/Loop-Support/CSM Loop Support.lvlib"/>
 				<Item Name="CSM MassData Parameter Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/MassData-Parameter/CSM MassData Parameter Support.lvlib"/>
+				<Item Name="CSM Watchdog.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/Watchdog/CSM Watchdog.lvlib"/>
 				<Item Name="Def-MassData Status Indicator(Vertical).ctl" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/MassData-Parameter/Utility/Def-MassData Status Indicator(Vertical).ctl"/>
 				<Item Name="Delete Elements from 1D Array_nevstop.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Array/Delete Elements from 1D Array_nevstop.vim"/>
-				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
 				<Item Name="Filter 1D Array_nevstop.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Array/Filter 1D Array_nevstop.vim"/>
 				<Item Name="Get Time in Second with Error Input_nevstop.vi" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Time/Get Time in Second with Error Input_nevstop.vi"/>
 				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
@@ -126,9 +125,6 @@
 				<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/UTC Offsets -- enum.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="CSM Watchdog Thread.vi" Type="VI" URL="../../../CSMAPT-BEIJING/src/instr.lib/MAL/ServoProduct(CSM)/_Shared/CSM/Watchdog/CSM Watchdog Thread.vi"/>
-			<Item Name="Run Script.vi" Type="VI" URL="../../../CSMAPT-BEIJING/src/instr.lib/MAL/ServoProduct(CSM)/_Shared/CSM/Script/Run Script.vi"/>
-			<Item Name="Start CSM Watchdog.vi" Type="VI" URL="../../../CSMAPT-BEIJING/src/instr.lib/MAL/ServoProduct(CSM)/_Shared/CSM/Watchdog/Start CSM Watchdog.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
